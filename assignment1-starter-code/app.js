@@ -14,7 +14,7 @@ angular.module('LunchChecker', [])
     }else{
       var message = "Too much!"
     }
-    $scope.totalValue = totalNameValue;
+    $scope.totalValue = message;
   };
 
 
